@@ -230,3 +230,288 @@
   230  git push origin master 
   231  history  | grep clone
   232  history > hist.txt
+    1  python -V
+    2  python
+    3  python -V
+    4  exit
+    5  python -V
+    6  pwd
+    7  ll
+    8  python -V
+    9  pwd
+   10  ls
+   11  mkdir projects
+   12  ls
+   13  ll
+   14  cd projects/
+   15  mkdir learning.python
+   16  ls
+   17  cd learning.python/
+   18  pwd
+   19  sudo yum groupinstall 'Development Tools' -y
+   20  which pip
+   21  python -V
+   22  which pip
+   23  pip --version
+   24  pwd
+   25  ls
+   26  sudo pip install virtualenv
+   27  pip --version
+   28  pip
+   29  virtualenv 
+   30  cd projects/learning.python/
+   31  which python
+   32  virtualenv -p /opt/rh/rh-python36 .lpvenv
+   33  cd /etc/yum.repos.d/
+   34  ll
+   35   cd 
+   36  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+   37  sudo yum install ./google-chrome-stable_current_*.rpm -y
+   38  more /etc/redhat-release 
+   39  wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   40  ll
+   41  sudo yum -y install epel-release-latest-7.noarch.rpm
+   42  more /etc/yum.repos.d/
+   43  ll  /etc/yum.repos.d/
+   44  sudo yum install centos-release-scl y
+   45  sudo yum install rh-python36 -y
+   46  python -v
+   47  python -V
+   48  scl enable rh-python36 bash
+   49  python -V
+   50  python -v
+   51  pip --version
+   52  which pip
+   53  scl enable rh-python36 bash
+   54  cd 
+   55  su -
+   56  yum -y update
+   57  su -
+   58  ip a
+   59  which pip
+   60  which python
+   61  python -V
+   62  nmap
+   63  yum -y install nmap
+   64  sudo yum -y install nmap
+   65  nmap -sP 192.168.0.0/24
+   66  lp
+   67  pwd
+   68  wget http://download.documentfoundation.org/libreoffice/stable/6.1.3/rpm/x86_64/LibreOffice_6.1.3_Linux_x86-64_rpm.tar.gz
+   69  dig
+   70  systemctl reboot
+   71  ps aux | grep 14668
+   72  kill -9 14668
+   73  which curl
+   74  curl cheat.sh
+   75  curl cheat.sh\ls
+   76  curl cheat.sh/ls
+   77  curl cheat.sh/grep
+   78  curl cheat.sh/python
+   79  scl enable rh-python36 
+   80  scl enable rh-python36 bash
+   81  ping 192.168.0.27
+   82  wget https://github.com/sivel/speedtest-cli/archive/master.zip
+   83  $ unzip master.zip 
+   84  ll
+   85  $ unzip master.zip 
+   86  wget https://github.com/sivel/speedtest-cli/archive/master.zip
+   87  ll
+   88  unzip master.zip.1
+   89  ll
+   90  cd speedtest-cli-master/
+   91  ll
+   92  ./ speedtest.py 
+   93  pwd
+   94  ll
+   95  chmod 755 speedtest_cli.py 
+   96  cd ../
+   97  ll
+   98  ll master.zip
+   99  uzip master.zip
+  100  unzip master.zip
+  101  cd speedtest-cli-master/tests/
+  102  ll
+  103  cd ../
+  104  ll
+  105  cat README.rst 
+  106  ll
+  107  ./ speedtest.py 
+  108  cat speedtest-cli.1 
+  109  cd ../
+  110  ll
+  111  rm -rf speedtest-cli-master/*
+  112  ll
+  113  rm -rf speedtest-cli-master/
+  114  ll
+  115  rm -rf master.zip *
+  116  ll
+  117  ll Downloads/
+  118  ll
+  119  pwd
+  120  mkdir Documents
+  121  mkdir Pictures
+  122  ll
+  123  mkdir Videos
+  124  ll
+  125  systemctl rebbot
+  126  systemctl reboot
+  127  su -
+  128  sudo yum -y update
+  129  pwd
+  130  ll
+  131  cd Documents/
+  132  ll
+  133  vi acloud
+  134  ll
+  135  chmod +x acloud 
+  136  rm :!
+  137  ll
+  138  bash acloud 
+  139  vi acloud
+  140  ll
+  141  rm acloud 
+  142  ll
+  143  gedit cloudgurus101.txt
+  144  ll
+  145  gedit cloudgurus101.txt
+  146  systemctl reboot
+  147  echo $logname
+  148  logname
+  149  w
+  150  git --version
+  151  pwd
+  152  ll
+  153  mkdir Devops
+  154  cd Devops/
+  155  echo "Hello world"  >> 1.txt
+  156  echo "Welcome to Phalanges Tech"  >> 2.txt
+  157  ll
+  158  git init 
+  159  ll -a
+  160  ll .git/
+  161  ll
+  162  git status 
+  163  cd 
+  164  git status 
+  165  cd -
+  166  git status 
+  167  git add .
+  168  git status 
+  169  git commit -m "first commit adding 1.txt and 2.txt"
+  170  git status 
+  171  ll
+  172  echo "Welcome on board"  >> 3.txt
+  173  git status
+  174  vi 2.txt 
+  175  git status
+  176  git remote add origin  https://github.com/brunobrunt/Devops-course.git
+  177  git status 
+  178  git push --help
+  179  git push origin master
+  180  git status 
+  181  git add 2.txt
+  182  git status 
+  183  git commit -m "Updated 2.txt"
+  184  git status 
+  185  git push origin master
+  186  git status 
+  187  vi 2.txt 
+  188  git commit -m "appended 2.txt"
+  189  git status 
+  190  git push origin master 
+  191  git status 
+  192  git commit -a 2.txt
+  193  git add 2.txt
+  194  git commit -m "appended 2.txt"
+  195  git status
+  196  git push origin master
+  197  git add 2.txt
+  198  git commit -m "appended 2.txt"
+  199  git status
+  200  git add 3.txt
+  201  git commit -m "third commit 3.txt"
+  202  git push origin master 
+  203  git status
+  204  mkdir devopstest
+  205  cd devopstest/
+  206  git clone https://github.com/brunobrunt/Devops-course.git
+  207  ll
+  208  cd ..
+  209  ll
+  210  cd devopstest/Devops-course/
+  211  ll
+  212  pwd
+  213  ll
+  214  echo  "This is a text file for clone"  > 4.txt
+  215  ll
+  216  history 
+  217  ll
+  218  git add .
+  219  git commit -m "adding clone file."
+  220  git status 
+  221  git push origin master 
+  222  ll
+  223  pwd
+  224  ll
+  225  pwd
+  226  echo "This is file 5"  > 5.txt
+  227  ll
+  228  git add .
+  229  git commit -m "adding the 5th file"
+  230  git push origin master 
+  231  history  | grep clone
+  232  history > hist.txt
+  233  ll
+  234  history 
+  235  ll
+  236  git add .
+  237  git commit -m "Adding the history file"
+  238  git push origin master 
+  239  ll
+  240  cd
+  241  pwd
+  242  ll
+  243  cd Devops/
+  244  ll
+  245  git pull origin master 
+  246  ll
+  247  git pull origin master 
+  248  ll
+  249  sudo yum -y update
+  250  ll
+  251  git pull origin master 
+  252  ll
+  253  git branch 
+  254  git branch features1
+  255  git branch 
+  256  ll
+  257  git checkout features1 
+  258  ll
+  259  git checkout master 
+  260  ll
+  261  git checkout features1 
+  262  systemctl reboot 
+  263  ll
+  264  cd Devops/
+  265  ll
+  266  git status 
+  267  cd ..
+  268  pwd
+  269  ll
+  270  mkdir Devtest
+  271  ll
+  272  cd Devtest/
+  273  git clone https://github.com/brunobrunt/Devops-course.git
+  274  ll
+  275  cd Devops-course/
+  276  ll
+  277  echo "This is real"> 6.txt
+  278  ll
+  279  git add 6.txt
+  280  git commit -m "Commiting the sixth file to file system"
+  281  git status 
+  282  git push origin master 
+  283  pwd
+  284  ll
+  285  history >> hist.txt 
