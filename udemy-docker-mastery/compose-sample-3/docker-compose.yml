@@ -8,8 +8,9 @@ services:
     build:
       context: .
       dockerfile: nginx.Dockerfile
+    image: ngix-custom
     ports:
-      - '80:80'
+      - '99:80'
   web:
     image: httpd
     volumes:
